@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/home.css">
+    <link rel="stylesheet" href="/src/styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="/src/images/logo.png" type="image">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>KuroComm</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">
+                <img src="/src/images/logo.png" alt="logo">
+            </a>
+        </div>
+        <ul id='nav_links' class="nav_links">
+            <li><a class='nav_link active_link' href="#">Home</a></li>
+            <li><a class='nav_link text_link' href="#">About</a></li>
+            <li><a class='nav_link text_link' href="#">Services</a></li>
+            <li><a class='nav_link text_link' href="#">Products</a></li>
+            <li><a class='nav_link text_link' href="#">Contact</a></li>
+        </ul>
+        <div class="togglebuttoncontainer">
+            <ion-icon class="togglebutton" onclick="Togglemenu(this)" name="menu"></ion-icon>
+        </div>
+    </nav>
+    <!-- <div>
+        Main content
+    </div> -->
+    <footer class="footer">
+        <div class='footer_container'>
+            <div class='footer_top'>
+                <div class='footer_logo_container'>
+                    <a href="#">
+                        <img src='/src/images/logo.png' alt="logo"/>
+                    </a>
+                    <div class='news_letter_container'>
+                        <h3>Subscribe to our NewsLetter</h3>
+                        <p>Stay current with our latest insights on selected <br class='breaker'> topics</p>
+                        <form>
+                            <input type="email" placeholder='Email'/>
+                            <button class='submit_newsletter_button' type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class='footer_link_container'>
+                    <p>Quick Links</p>
+                    <ul class='footer_nav'>
+                        <!-- <li><a href="#" class="footer_link" >Home</a></li> */} -->
+                        <li><a href="#" class="footer_link">About</a></li>
+                        <li><a href="#" class="footer_link">Services</a></li>
+                        <li><a href="#" class="footer_link">Projects</a></li>
+                        <!-- <li><a href="#" class="footer_link">Clients</a></li> */} -->
+                        <li><a href="#" class="footer_link">Contact</a></li>
+                    </ul>
+                    <div class='socials'>
+                        <div><img src='/src/images/facebookicon.png' alt='socials'/></div>
+                        <div><img src='/src/images/twittericon.png' alt='socials'/></div>
+                        <div><img class='smallericon' src='/src/images/igicon.png' alt='socials'/></div>
+                        <div><img class='smallericon' src='/src/images/linkedinicon.png' alt='socials'/></div>
+                    </div>
+                </div>
+            </div>
+            <div class='copyright_container'><p> &copy; 2022 Kuro Communications Limited. All Rights Reserved</p></div>
+        </div>
+    </footer>
+</body>
+<script src="/src/scripts/base.js"></script>
+</html>
